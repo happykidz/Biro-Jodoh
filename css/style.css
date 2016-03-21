@@ -23,16 +23,19 @@
 }
 
 #index{
-	background-image:url('image/conversation.jpg');
+	
+	background-image:url('../image/conversation.jpg');
 	color: white;
 	text-align:center;
 	width:100%;
-	height:30%;
-	padding-bottom:20%;
+	height:100%;
+	position:relative;
+	padding-bottom:31%;
 	padding-top:1%;
+	
 }
 
-#button{
+.button{
 	color:white;
 	background-color:orange;
 	border:none;
@@ -42,7 +45,11 @@
 	display:inline-block;
 	font-size:16px;
 	padding:15px 32px;
+	
+}
 
+.button a{
+	text-decoration:none;
 }
 
 #adz1{
@@ -71,4 +78,61 @@ footer p {
 	color:white;
 	font-family:Arial, Helvetica, sans-serif;
 	text-align:center;
+	clear:both;
 }
+
+/*From Pauline for Temukan Calon - Start*/
+.box {
+	background-color:gray;
+	width:30%;
+	text-align:left;
+	padding: 30px;
+    margin:auto;
+}
+
+#temukan_calon {
+	background-color:purple;
+	padding-top:1%;
+	text-align:center;
+	color:white;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-bottom:2%;
+}
+/*From Pauline for Temukan Calon - End*/
+
+/*From Rose for About Us - Start*/
+#about_us {
+	
+	background-color:#8B008B;
+	padding-top:1%;
+	text-align:center;
+	color:white;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+#head{
+text-align:center;
+} 
+
+#head1{
+text-align:justify;
+} 
+
+#head1 li{
+	padding-bottom:2%;
+}
+	
+.survey {
+	display:inline-block;
+	color:white;
+	width:25%;
+	margin:0px 50px 10px 0px;
+	width: 250px;
+	padding-top:1%;
+	text-align:center;
+	
+}
+
+
+/*From Rose for About Us - End*/
